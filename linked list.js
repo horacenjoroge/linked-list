@@ -178,13 +178,3 @@ class LinkedList {
     }
 }
 
-// Example usage
-const linkedList = new LinkedList();
-linkedList.append(1);
-linkedList.append(2);
-linkedList.prepend(0);
-linkedList.insertAt(1.5, 2);
-linkedList.removeAt(3);
-
-console.log(linkedList.toString());
-// Output: (0) -> (1) -> (1.5) -> (2) -> null
